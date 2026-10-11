@@ -1,6 +1,6 @@
-# TravelCompass
+# Black box
 
-**TravelCompass** is a smart, magnetometer-free GPS waypoint navigator built around the ESP32-C3 Supermini. It automatically calculates the nearest destination from a hardcoded list and provides a smooth, real-time directional arrow on a 1.3" OLED display. 
+**Black box** is a smart, magnetometer-free GPS waypoint navigator built around the ESP32-C3 Supermini. It automatically calculates the nearest destination from a hardcoded list and provides a smooth, real-time directional arrow on a 1.3" OLED display. 
 
 By fusing a NEO-6M GPS with an MPU6050 gyroscope using a custom 1D Kalman filter, the device solves the classic "GPS freezing" problem. The arrow updates instantly as you turn while standing still, and uses GPS Course Over Ground (COG) to correct gyroscope drift while walking.
 
